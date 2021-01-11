@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-project(cmake VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
+project(task01 VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 
 set(CMAKE_PREFIX_PATH_EXT "" CACHE PATH "pathes for find_package")
 list(APPEND CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH_EXT})
