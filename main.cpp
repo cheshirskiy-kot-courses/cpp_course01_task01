@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     cout << "build " << version() << "\n"
-        << "Hello, World!";
+        << "Hello, World!\n";
 
     return 0;
 }
